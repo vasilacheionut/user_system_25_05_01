@@ -50,10 +50,10 @@ ls -R
 3. Accesează în browser:     
    `http://localhost/user_system/public/install.php`
 4. Porneste server
-'''
+```
    /public
    php -S localhost:8000 router.php
-'''  
+```  
 6. Accesează în browser:     
    `http://localhost:8000/install.php`   
 7. Asta va crea:
