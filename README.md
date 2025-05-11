@@ -47,9 +47,14 @@ ls -R
 
 1. Clonează sau descarcă acest proiect.
 2. Copiază în serverul local (`htdocs/` pentru XAMPP sau `www/` pentru Laragon).
-3. Accesează în browser:  
+3. Accesează în browser:     
    `http://localhost/user_system/public/install.php`
-4. Asta va crea:
+4. Porneste server
+   /public
+   php -S localhost:8000 router.php
+5. Accesează în browser:     
+   `http://localhost:8000/install.php`   
+6. Asta va crea:
    - Baza de date `user_system`
    - Tabelele `users` și `user_logs`
    - Un utilizator root implicit:
