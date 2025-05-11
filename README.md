@@ -50,11 +50,13 @@ ls -R
 3. Accesează în browser:     
    `http://localhost/user_system/public/install.php`
 4. Porneste server
+'''
    /public
    php -S localhost:8000 router.php
-5. Accesează în browser:     
+'''  
+6. Accesează în browser:     
    `http://localhost:8000/install.php`   
-6. Asta va crea:
+7. Asta va crea:
    - Baza de date `user_system`
    - Tabelele `users` și `user_logs`
    - Un utilizator root implicit:
